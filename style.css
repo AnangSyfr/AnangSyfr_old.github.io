@@ -21,13 +21,6 @@ div {
 	cursor: pointer;
 }
 
-@media(max-width: 468px){
-	.box2{
-		top: -50%;
-		left: -50%;	
-	}
-}
-
 .box2 {
 	position: absolute;
 	background: #534bae;
@@ -37,6 +30,25 @@ div {
 	left: -50%;
 	transform: rotate(-20deg);
 }
+
+.first-content-container , .content-container , .content-container {
+	padding: 70px 10px;
+}
+
+@media(max-width: 468px){
+	.box2{
+		display: none;
+	}
+	.text-first, .text-second {
+		text-align: center;
+	}
+
+	.first-content-container , .content-container , .content-container {
+		padding: 10px 0;
+	}
+}
+
+
 
 .btn-book {
 	margin-top: 10px;
