@@ -1,0 +1,81 @@
+body {
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+.text-first {
+	color: #000051;
+}
+.bg-first-custom {
+	background: #000051;
+}
+.bg-second-custom {
+	background: #1a237e;
+}
+.bg-third-custom {
+	background: #534bae;
+}
+div {
+	position: relative;
+}
+.nav-link {
+	cursor: pointer;
+}
+
+@media(max-width: 468px){
+	.box2{
+		top: -50%;
+		left: -50%;	
+	}
+}
+
+.box2 {
+	position: absolute;
+	background: #534bae;
+	width: 120%;
+	height: 500px;
+	top: -38%;
+	left: -50%;
+	transform: rotate(-20deg);
+}
+
+.btn-book {
+	margin-top: 10px;
+	background: #9c27b0;
+	border: 1px solid #6a0080;
+	color: white;
+}
+
+.btn-instagram {
+	margin-top: 10px;
+	background: #d81b60;
+	border: 1px solid #a00037;
+	color: white;
+}
+
+.btn-linkedin {
+	margin-top: 10px;
+	background: #01579b;
+	border: 1px solid #002f6c;
+	color: white;
+}
+
+.btn-facebook {
+	margin-top: 10px;
+	background: #3d5afe;
+	border: 1px solid #0031ca;
+	color: white;
+}
+
+.btn-whatsapp {
+	margin-top: 10px;
+	background: #00796b;
+	border: 1px solid #004c40;
+	color: white;
+}
+
+.btn-github {
+	margin-top: 10px;
+	background: #37474f;
+	border: 1px solid #102027;
+	color: white;
+}	
